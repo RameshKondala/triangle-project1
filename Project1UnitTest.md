@@ -46,8 +46,12 @@ The main challenges I faced were mostly about setting up the project and managin
 
 Below are screenshots demonstrating the program and tests (files are also included in the `screenshots` folder of the GitHub repo):
 
-- `isosceles.png`: Console run with sides (3, 4, 5) showing a valid scalene triangle.
-- `invalid.png`: Console run with sides (0, 4, 5) showing the triangle is invalid.
-- 'equilateral.png'
-- `tests-passing.png`: JUnit test run showing all tests passing.
+- ![Valid scalene triangle run](screenshots/scalene.png)
+- ![Valid equilateral triangle run](screenshots/equilateral.png)
+- ![Valid isosceles triangle run](screenshots/isosceles.png)
+- ![Valid isosceles triangle run (order 2)](screenshots/isosceles1.png)
+- ![Valid isosceles triangle run (order 3)](screenshots/isosceles2.png)
+- ![Invalid triangle run](screenshots/invalid.png)
+- ![JUnit tests all passing](screenshots/Screenshot-2026-03-17-at-12.28.35-PM.jpeg)
+
 
