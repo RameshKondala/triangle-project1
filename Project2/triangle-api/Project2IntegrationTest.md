@@ -133,7 +133,7 @@ I also tested several other triangle case.
 
 #### Invalid Triangle
 
-![POST create triangle](/Project2/triangle-api/screenshots/(img_3.png))
+![POST create triangle](/Project2/triangle-api/screenshots/img_3.png)
 
 
 
@@ -154,15 +154,13 @@ The API stores triangle data temporarily in memory. This means the data is not s
 ### POST Request using curl
 
 
-![GET triangle](/Project2/triangle-api/screenshotscurl_1.png)
-
 ![GET triangle](./screenshots/curl_1.png)
 
 
 
 ### GET Request using curl -triangle not found
 
-![GET triangle](curl_2.png)
+![GET triangle](./screenshots/curl_2.png)
 
 ### Advantages of curl
 
