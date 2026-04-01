@@ -106,24 +106,26 @@ All requests used `{{url}}` as the base URL so the collection could be reused ea
 ### 1. GET Request (All Triangles)
 
 
-![GET all triangles](img.png)
+![GET all triangles](/Project2/triangle-api/screenshots/img.png)
+
 
 ### 2. POST Request (Create Triangle)
 
-![POST create triangle](img_1.png)
+![POST create triangle](/Project2/triangle-api/screenshots/img_1.png)
 
-![POST create triangle](img_2.png)
+
+![POST create triangle](/Project2/triangle-api/screenshots/img_2.png)
 
 
 
 ### 3. GET Request by ID
 
-![GET triangle](img_5.png)
+![GET triangle](/Project2/triangle-api/screenshots/img_5.png)
 
 ### 4. Error Case
 
 
-![GET triangle](img_4.png)
+![GET triangle](/Project2/triangle-api/screenshots/img_4.png)
 
 ### 5. Additional Triangle Tests
 
@@ -131,7 +133,7 @@ I also tested several other triangle case.
 
 #### Invalid Triangle
 
-![POST create triangle](img_3.png)
+![POST create triangle](/Project2/triangle-api/screenshots/(img_3.png))
 
 
 
@@ -146,13 +148,16 @@ The API stores triangle data temporarily in memory. This means the data is not s
 ### GET Request using curl
 
 
-![GET triangle](curl.png)
+![GET triangle](/Project2/triangle-api/screenshots/curl.png)
 
 
 ### POST Request using curl
 
 
-![GET triangle](curl_1.png)
+![GET triangle](/Project2/triangle-api/screenshotscurl_1.png)
+
+![GET triangle](./screenshots/curl_1.png)
+
 
 
 ### GET Request using curl -triangle not found
