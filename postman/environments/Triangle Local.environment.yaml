@@ -1,0 +1,6 @@
+name: Triangle Local
+values:
+  - key: url
+    value: 'http://localhost:8080'
+    enabled: true
+    type: default

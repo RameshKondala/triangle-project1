@@ -1,0 +1,47 @@
+$kind: http-request
+name: 'POST scalene triangle'
+method: POST
+url: '{{url}}/triangles'
+order: 2000
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "a": 3,
+      "b": 4,
+      "c": 5
+    }
+scripts:
+  - type: afterResponse
+    language: text/javascript
+    code: |-
+      pm.test("Status code is 201", function () {
+          pm.response.to.have.status(201);
+      });
+
+      pm.test("Response has sides a, b, c", function () {
+          const json = pm.response.json();
+          pm.expect(json).to.have.property("a");
+          pm.expect(json).to.have.property("b");
+          pm.expect(json).to.have.property("c");
+      });
+
+      pm.test("Triangle sides match request values", function () {
+          const json = pm.response.json();
+          pm.expect(json.a).to.eql(3);
+          pm.expect(json.b).to.eql(4);
+          pm.expect(json.c).to.eql(5);
+      });
+
+      pm.test("Triangle type is SCALENE", function () {
+          const json = pm.response.json();
+          pm.expect(json.type).to.eql("SCALENE");
+      });
+
+      pm.test("Triangle is valid", function () {
+          const json = pm.response.json();
+          pm.expect(json.valid).to.be.true;
+      });
