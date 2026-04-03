@@ -1,0 +1,6 @@
+$kind: http-request
+name: GET triangle 2
+url: |
+  {{url}}/triangles/2
+method: GET
+order: 4393619801967538

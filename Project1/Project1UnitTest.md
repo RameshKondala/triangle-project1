@@ -52,6 +52,5 @@ Below are screenshots demonstrating the program and tests (files are also includ
 - ![Valid isosceles triangle run (order 2)](screenshots/isosceles1.png)
 - ![Valid isosceles triangle run (order 3)](screenshots/isosceles2.png)
 - ![Invalid triangle run](screenshots/invalid.png)
-- ![JUnit tests all passing](screenshots/Screenshot-2026-03-17-at-12.28.35-PM.jpeg)
 
 
