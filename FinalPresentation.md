@@ -1,4 +1,3 @@
-Below is a well-structured **presentation markdown** for your Week 8 talk. Designed for a 5-minute presentation, it includes space for screenshots and discusses four projects along with your analysis of Agentic AI tools. The sources highlight that agentic AI can accelerate test creation, automate regression, and adapt tests, but it can also overlook edge cases and requires human review.
 
 # Final Presentation
 
